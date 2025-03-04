@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 24px;
+        }
+        .nav {
+            text-align: center;
+            margin-top: 5px;
+        }
+        .nav a {
+            text-decoration: none;
+            color: blue;
+            font-size: 14px;
+            margin: 0 10px;
+            text-decoration: underline;
+        }
+        .container {
+            display: flex;
+            width: 90%;
+            margin: 20px auto;
+        }
+        .sidebar {
+            width: 20%;
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar h3 {
+            margin-bottom: 10px;
+        }
+        .sidebar a {
+            text-decoration: underline;
+            color: blue;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .content {
+            width: 75%;
+            margin-left: 5%;
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .footer a {
+            color: white;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        My Blog
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="categories.html">Categories</a>
+            <a href="about.html">About</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <h3>Chuyên mục</h3>
+            <ul>
+                <li><a href="css.html">CSS</a></li>
+                <li><a href="javascript.html">JavaScript</a></li>
+                <li><a href="#">HTML</a></li>
+            </ul>
+        </div>
+        
+        <div class="content">
+            <h3>HTML</h3>
+            <p>HTML (viết tắt của từ Hyper Text Markup Language, hay còn gọi là "Ngôn ngữ Đánh dấu Siêu văn bản") là một ngôn ngữ đánh dấu được thiết kế ra để tạo nên các trang web trên World Wide Web. Nó có thể được trợ giúp bởi các công nghệ như CSS và các ngôn ngữ kịch bản giống như JavaScript.</p>
+            <p>HTML động, HTML5, HTML5 audio, Canvas, HTML5 video, XHTML, XHTML Basic, XHTML Mobile Profile, I-mode, Phần tử HTML, Span and div, HTML attribute, Frame (World Wide Web), Trình biên tập HTML, Character encodings in HTML, Unicode and HTML, Mã ngôn ngữ, DOM, Browser Object Model, Style sheet (web development), CSS, Font family (HTML), Web colors, HTML scripting, JavaScript, WebGL, WebCL, W3C, W3C Markup Validation Service, WHATWG, Quirks mode, Web storage, Browser engine.</p>
+            <p>Các trình duyệt web nhận tài liệu HTML từ một web server hoặc một kho lưu trữ cục bộ và render tài liệu đó thành các trang web đa phương tiện. HTML mô tả cấu trúc của một trang web về mặt ngữ nghĩa và các dấu hiệu ban đầu được bao gồm cho sự xuất hiện của tài liệu.</p>
+            <p>Các phần tử HTML là các khối xây dựng của các trang HTML. Với cấu trúc HTML, hình ảnh và các đối tượng khác như biểu mẫu tương tác có thể được nhúng vào trang được hiển thị. HTML cung cấp một phương tiện để tạo tài liệu có cấu trúc bằng cách biểu thị ngữ nghĩa cấu trúc cho văn bản như headings, paragraphs, lists, links, quotes và các mục khác. Các phần tử HTML được phân định bằng các thẻ, được viết bằng dấu ngoặc nhọn. Các thẻ như &lt;img> và &lt;input> giới thiệu trực tiếp nội dung vào trang. Các thẻ khác như <p> bao quanh và cung cấp thông tin về văn bản tài liệu và có thể bao gồm các thẻ khác làm phần tử phụ. Các trình duyệt không hiển thị các thẻ HTML, nhưng sử dụng chúng để diễn tả nội dung của trang.</p>
+            <p>HTML có thể nhúng các chương trình được viết bằng scripting như JavaScript, điều này ảnh hưởng đến hành vi và nội dung của các trang web. Việc bao gồm CSS xác định giao diện và bố cục của nội dung. World Wide Web Consortium (W3C), trước đây là đơn vị bảo trì HTML và là người duy trì hiện tại của các tiêu chuẩn CSS, đã khuyến khích việc sử dụng CSS trên HTML trình bày rõ ràng kể từ năm 1997.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        Liên hệ: <a href="mailto:n24dtcn106@student.ptithcm.edu.vn" style="color: white;">n24dtcn106@ptithcm.edu.vn</a>
+    </div>
+</body>
+</html>

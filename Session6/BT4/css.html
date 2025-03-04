@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 24px;
+        }
+        .nav {
+            text-align: center;
+            margin-top: 5px;
+        }
+        .nav a {
+            text-decoration: none;
+            color: blue;
+            font-size: 14px;
+            margin: 0 10px;
+            text-decoration: underline;
+        }
+        .container {
+            display: flex;
+            width: 90%;
+            margin: 20px auto;
+        }
+        .sidebar {
+            width: 20%;
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar h3 {
+            margin-bottom: 10px;
+        }
+        .sidebar a {
+            text-decoration: underline;
+            color: blue;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .content {
+            width: 75%;
+            margin-left: 5%;
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .footer a {
+            color: white;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        My Blog
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="categories.html">Categories</a>
+            <a href="about.html">About</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <h3>Chuyên mục</h3>
+            <ul>
+                <li><a href="#">CSS</a></li>
+                <li><a href="javascript.html">JavaScript</a></li>
+                <li><a href="html.html">HTML</a></li>
+            </ul>
+        </div>
+        
+        <div class="content">
+            <h3>CSS</h3>
+            <p>Trong tin học, các tập tin định kiểu theo tầng – dịch từ tiếng Anh là Cascading Style Sheets (CSS) – được dùng để miêu tả cách trình bày các tài liệu viết bằng ngôn ngữ HTML và XHTML. Ngoài ra ngôn ngữ định kiểu theo tầng cũng có thể dùng cho XML, SVG, XUL. Các đặc điểm kỹ thuật của CSS được duy trì bởi World Wide Web Consortium. Thay vì đặt các thẻ quy định kiểu dáng cho văn bản HTML (hoặc XHTML) ngay trong nội dung của nó, bạn nên sử dụng CSS.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        Liên hệ: <a href="mailto:n24dtcn106@student.ptithcm.edu.vn" style="color: white;">n24dtcn106@ptithcm.edu.vn</a>
+    </div>
+</body>
+</html>
